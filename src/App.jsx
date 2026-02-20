@@ -20,8 +20,7 @@ const WIDGET_PARAMS = {
 
   // Destination
   destCountry: 'US',
-  // test destination zip because backcountry is configured only for US. so the API would return an empty response
-  // if the user visiting is from a country outside US.
+  // test destination zip because backcountry is configured only for US. so the API would return an empty response if the user visiting is from a country outside US.
   destZip: '10011',
   // to indicate this is a test request. Since backcountry is still configuring and not live, 
   // test flag = true needs to be passed to return test response so that the widget renders.
