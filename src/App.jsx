@@ -25,7 +25,7 @@ const WIDGET_PARAMS = {
   // to indicate this is a test request. Since backcountry is still configuring and not live, 
   // test flag = true needs to be passed to return test response so that the widget renders.
   // It needs to be removed before the customer goes live 
-  // alternatively passing ?narvar_test=true is also going to set this variable
+  // alternatively setting ?narvar_test=true in the url is also going to set this variable
   isTestMode: true,
 
   // Customer
